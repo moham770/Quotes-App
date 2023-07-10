@@ -40,4 +40,10 @@ font-size: 55px;}
   h2{
     color: green;
   }
+  @media screen and (max-width:500px) {
+    h1{
+      font-size: 40px ;
+    }
+    
+  }
   
