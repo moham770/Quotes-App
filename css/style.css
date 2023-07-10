@@ -8,7 +8,7 @@ h3{
 h1{
 color: #000;
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-font-size: 55px;}
+font-size: 60px;}
 
 .button {
     display: inline-block;
@@ -39,6 +39,12 @@ font-size: 55px;}
   
   h2{
     color: green;
+  }
+  @media screen and (max-width:768px) {
+    h1{
+      font-size: 55px ;
+    }
+    
   }
   @media screen and (max-width:500px) {
     h1{
